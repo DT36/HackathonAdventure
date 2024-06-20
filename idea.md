@@ -1,7 +1,3 @@
-
-### `idea.md`
-
-```markdown
 # Nápad na Hru
 
 ## Názov
