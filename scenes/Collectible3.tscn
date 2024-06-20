@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://dwacirsskdseq"]
+
+[ext_resource type="Script" path="res://scripts/Scrollable.gd" id="1_k0avx"]
+[ext_resource type="Texture2D" uid="uid://cjfjg5iy06ri2" path="res://assets/graphics/book.png" id="4_0ywt1"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_h60rn"]
+radius = 25.0
+
+[node name="Collectible" type="Area2D" groups=["Collectible"]]
+script = ExtResource("1_k0avx")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(1, -26)
+scale = Vector2(0.228875, 0.196)
+texture = ExtResource("4_0ywt1")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-1.19209e-07, -22)
+shape = SubResource("CircleShape2D_h60rn")

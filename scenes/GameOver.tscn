@@ -1,0 +1,38 @@
+[gd_scene load_steps=5 format=3 uid="uid://b86yxn07eoa6t"]
+
+[ext_resource type="Script" path="res://scripts/GameOver.gd" id="1_m2cpn"]
+[ext_resource type="FontFile" uid="uid://gmcddbwdd8hs" path="res://assets/fonts/PixelOperator8-Bold.ttf" id="2_oq6ev"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_nfpb0"]
+font = ExtResource("2_oq6ev")
+font_size = 100
+font_color = Color(0.835322, 0.230864, 5.77569e-07, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_h36bn"]
+font = ExtResource("2_oq6ev")
+font_size = 32
+
+[node name="GameOver" type="CanvasLayer"]
+script = ExtResource("1_m2cpn")
+
+[node name="GameOverLabel" type="Label" parent="."]
+offset_left = 148.0
+offset_top = 73.0
+offset_right = 1011.0
+offset_bottom = 258.0
+text = "Game Over"
+label_settings = SubResource("LabelSettings_nfpb0")
+
+[node name="RestartButton" type="Button" parent="."]
+offset_left = 490.0
+offset_top = 325.0
+offset_right = 675.0
+offset_bottom = 374.0
+text = "Restart game"
+
+[node name="ScoreLabel" type="Label" parent="."]
+offset_left = 412.0
+offset_top = 215.0
+offset_right = 780.0
+offset_bottom = 287.0
+label_settings = SubResource("LabelSettings_h36bn")

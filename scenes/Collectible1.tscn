@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://bnyfe0uysoqlb"]
+
+[ext_resource type="Script" path="res://scripts/Scrollable.gd" id="1_o5i1j"]
+[ext_resource type="Texture2D" uid="uid://d0v4cpxvggd7c" path="res://assets/graphics/mouse.png" id="2_jkgsr"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_h60rn"]
+radius = 22.0227
+
+[node name="Collectible1" type="Area2D" groups=["Collectible"]]
+script = ExtResource("1_o5i1j")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(-5.96046e-08, -35)
+scale = Vector2(0.228875, 0.196)
+texture = ExtResource("2_jkgsr")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(2, -38)
+shape = SubResource("CircleShape2D_h60rn")

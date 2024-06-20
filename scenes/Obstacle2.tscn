@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://bpg4qfvaegwuk"]
+
+[ext_resource type="Script" path="res://scripts/Scrollable.gd" id="1_nbxvc"]
+[ext_resource type="Texture2D" uid="uid://cxyjewiwaqkdd" path="res://assets/graphics/error.png" id="2_4jrgk"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_184yl"]
+radius = 31.7805
+
+[node name="Obstacle" type="Area2D" groups=["Obstacle"]]
+script = ExtResource("1_nbxvc")
+
+[node name="Sprite2D" type="Sprite2D" parent="." groups=["Obstacle"]]
+position = Vector2(4, 1.00003)
+scale = Vector2(0.266851, 0.244851)
+texture = ExtResource("2_4jrgk")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 3)
+shape = SubResource("CircleShape2D_184yl")
