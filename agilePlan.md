@@ -1,5 +1,3 @@
-# Agilný Plán
-
 ## Sprint 1: Počiatočné Nastavenie a Základné Mechanizmy
 **Trvanie**: 1 týždeň
 

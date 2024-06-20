@@ -14,11 +14,11 @@ Téma hry zahŕňa prvky informatiky a univerzitného života.
 - **Prekážky**: Objekty, ktorým sa musí hráč vyhnúť; kolízia s prekážkou spôsobí koniec hry.
 - **Počítadlo skóre**: Zobrazuje skóre hráča na hlavnej obrazovke a konečné skóre na obrazovke konca hry.
 
-## 1. Otvorenie projektu v Godot:
+## Otvorenie projektu v Godot:
 Otvorte Godot 4.2.2.
 Importujte projekt pomocou cesty k naklonovanému repozitáru.
 
-## 3. Spustenie hry:
+## Spustenie hry:
 Otvorte hlavnú scénu (Main.tscn).
 Stlačte tlačidlo pre spustenie hry.
 

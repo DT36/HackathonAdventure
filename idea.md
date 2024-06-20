@@ -1,5 +1,3 @@
-# Nápad na Hru
-
 ## Názov
 HackathonAdventure - 2D Hra pre Deň Otvorených Dverí - FAI
 
